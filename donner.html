@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Donner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="./res/chats/246x0w.jpg" type="image/x-icon" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="./css/donner.css">
+    <link rel="stylesheet" type="text/css" href="./css/donnate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!--===============================================================================================-->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-succes neuvbar">
+            <a class="navbar-brand " href="./index.html"><img class="logo" src="./res/adopt.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Adopt</a> <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Adopter
+              </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./chien.html">Chiens</a>
+                            <a class="dropdown-item" href="./chat.html">Chats</a>
+
+
+                        </div>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./donner.html">Donner<span class="sr-only">(current)</span></a>
+                        </li>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./contact us.html">Contactez nous<span class="sr-only">(current)</span></a>
+                    </li>
+                    <a href="https://www.paypal.com/fr/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Ftransfer&state=%2F"> <button type="button" class="btn btn-warning"> > Je fais un don</button></a>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Rechercher</button>
+                </form>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="container-contact100">
+            <div class="wrap-contact100">
+                <form class="contact100-form validate-form">
+                    <span class="contact100-form-title">
+					Donner un animal
+				</span>
+
+                    <div class="wrap-input100 validate-input bg1">
+                        <span class="label-input100">Votre nom et prénom</span>
+                        <input class="input100" type="text" name="name" placeholder="Entrez votre nom et prénom">
+                    </div>
+
+                    <div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+                        <span class="label-input100">E-MAIL</span>
+                        <input class="input100" type="text" name="email" placeholder="nom@example.com">
+                    </div>
+
+                    <div class="wrap-input100 bg1 rs1-wrap-input100">
+                        <span class="label-input100">Votre num de téléphone</span>
+                        <input class="input100" type="number" name="phone" placeholder="Entrez votre num de téléphone">
+                    </div>
+
+                    <div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+                        <span class="label-input100">Votre animal</span>
+                        <div>
+                            <select class="js-select2" name="service">
+							<option>Choisissez SVP</option>
+							<option>Chat</option>
+							<option>Chien</option>
+							
+						</select>
+                        </div>
+                    </div>
+                    <div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+                        <span class="label-input100">Nom de l'animal</span>
+                        <input class="input100" type="text" name="name" placeholder="Entrez le nom de votre animal">
+                    </div>
+                    <div class="wrap-input100 validate-input bg1 rs1-wrap-input100">
+                        <span class="label-input100">Son sexe</span>
+                        <div>
+                            <select class="js-select2" name="service">
+							<option>Choisissez SVP</option>
+							<option>Male</option>
+							<option>Femelle</option>
+							
+						</select>
+                        </div>
+                    </div>
+                    <div class="wrap-input100 bg1 rs1-wrap-input100">
+                        <span class="label-input100">La race de votre animal</span>
+                        <input class="input100" type="text" name="name" placeholder="Entrez la race de votre animal">
+                    </div>
+
+                    <div class=" wrap-input100 validate-input bg1">
+                        <span class="label-input100">La taille de votre animal</span>
+                        <div>
+                            <select class="js-select2" name="service">
+							<option>Choisissez SVP</option>
+							<option>Petit/e</option>
+							<option>Moyen/ne</option>
+							<option>Grand/e</option>
+							
+						</select>
+                            <div class="dropDownSelect2"></div>
+                        </div>
+                    </div>
+
+                    <div class="wrap-input100 validate-input bg0">
+                        <span class="label-input100">Description</span>
+                        <textarea class="input100" name="message" placeholder="Ajouter une description à votre animal ici"></textarea>
+                    </div>
+
+                    <div class="container-contact100-form-btn">
+                        <button class="contact100-form-btn">
+						<span>
+							Envoyer le formulaire
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+        <!--===============================================================================================-->
+        <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/animsition/js/animsition.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/bootstrap/js/popper.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/select2/select2.min.js"></script>
+        <script>
+            $(".js-select2").each(function() {
+                $(this).select2({
+                    minimumResultsForSearch: 20,
+                    dropdownParent: $(this).next('.dropDownSelect2')
+                });
+
+
+                $(".js-select2").each(function() {
+                    $(this).on('select2:close', function(e) {
+                        if ($(this).val() == "Please chooses") {
+                            $('.js-show-service').slideUp();
+                        } else {
+                            $('.js-show-service').slideUp();
+                            $('.js-show-service').slideDown();
+                        }
+                    });
+                });
+            })
+        </script>
+        <!--===============================================================================================-->
+        <script src="vendor/daterangepicker/moment.min.js"></script>
+        <script src="vendor/daterangepicker/daterangepicker.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/countdowntime/countdowntime.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/noui/nouislider.min.js"></script>
+        <script>
+            var filterBar = document.getElementById('filter-bar');
+
+            noUiSlider.create(filterBar, {
+                start: [1500, 3900],
+                connect: true,
+                range: {
+                    'min': 1500,
+                    'max': 7500
+                }
+            });
+
+            var skipValues = [
+                document.getElementById('value-lower'),
+                document.getElementById('value-upper')
+            ];
+
+            filterBar.noUiSlider.on('update', function(values, handle) {
+                skipValues[handle].innerHTML = Math.round(values[handle]);
+                $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());
+                $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());
+            });
+        </script>
+        <!--===============================================================================================-->
+        <script src="./js/donner.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-23581568-13');
+        </script>
+    </main>
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Content -->
+                    <a class="txtt" href="./index.html">
+                        <h5 class="font-weight-bold text-uppercase mb-4">Adopt</h5>
+                    </a>
+
+                    <p>Adopt est le premier site web concerné de l'andoption d'animaux en tunisie </p>
+                    <p>En effet, notre site permet à ses utilisateurs d'adopter des chats ou des chiens ou les donner a d'autres gens. Cela permet la diminution du phénomène des chats de rue et le bien- être des animaux en tunisie </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Nos services</h5>
+
+                    <ul class="list-unstyled">
+                        <li class="txt">
+                            <p>
+                                <a class="txtt" href="./chat.html">Adoptez un chat</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="txtt" href="./chien.html">Adoptez un chien</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="txtt" href="./donner.html">Donnez nous un animal</a>
+                            </p>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Contact details -->
+                    <h5 class="font-weight-bold text-uppercase mb-4"><a href="./contact us.html" class="txtt countact">Contactez Nous</a></h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>
+                                <i class="fas fa-envelope mr-3"></i> Adopt@gmail.com</p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-phone mr-3"></i> +216 - 12 34 56 78</p>
+                        </li>
+                        <div class="map">
+                            <iframe class="mip" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3999041.427295835!2d8.241251076078902!3d34.02196779956279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13002cda1486c695%3A0x22dfe0a62c50ce6f!2sSfax!5e0!3m2!1sfr!2stn!4v1566566624675!5m2!1sfr!2stn"
+                                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                    <!-- Social buttons -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Suivez nous</h5>
+
+                    <!-- Facebook -->
+                    <div class="icons">
+                        <a href="https://www.facebook.com/" class="prise">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/" class="prise">
+                            <i class="fab fa-twitter "></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/" class="prise">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/?hl=fr" class="prise">
+                            <i class="fab fa-instagram "></i>
+                        </a>
+                        <a href="https://www.youtube.com/" class=prise><i class="fab fa-youtube "></i></a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 ">© 2019 Copyright : Fedi Guetat /
+            <a class="txtt " href="./index.html ">Adopt</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+</body>
+
+</html>

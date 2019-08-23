@@ -1,0 +1,191 @@
+        .budy {
+            background-color: #007bff
+        }
+        
+        .btn-warning {
+            margin-left: 425px;
+        }
+        
+        .slider {
+            height: 600px;
+        }
+        
+        .black {
+            background: #0000008a;
+            border-radius: 20px
+        }
+        
+        .neuvbar {
+            height: 80px;
+        }
+        
+        .logo {
+            height: 80px;
+            width: 80px;
+        }
+        
+        .cats {
+            background-color: yellow;
+            border: black;
+            border-radius: 8px;
+            width: 300px;
+            height: 400px;
+            text-decoration: none
+        }
+        
+        .chiens {
+            color: yellow;
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+            align-items: center
+        }
+        
+        .chats {
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+            text-decoration: none;
+            color: black
+        }
+        
+        .dogs {
+            background-color: black;
+            border: yellow;
+            border-radius: 8px;
+            width: 300px;
+            height: 400px;
+        }
+        
+        .twocards {
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-around;
+            border-radius: 8px;
+        }
+        
+        .titre {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            color: blanchedalmond
+        }
+        
+        hr {
+            justify-content: center;
+            width: 10%;
+            border: none;
+            height: 5px;
+            border-radius: 4px;
+            /* Set the hr color */
+            color: #333;
+            background-color: #333;
+            /* Modern Browsers */
+            margin-bottom: 20px
+        }
+        
+        .chienne {
+            background-image: url(../res/chiens/BeFunky-photo.png)
+        }
+        
+        .bra {
+            margin-bottom: 40px
+        }
+        
+        .frr {
+            margin-top: 40px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly
+        }
+        
+        .image {
+            width: 100%;
+            height: 200px;
+        }
+        
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .chatte {
+            background-image: url(../res/chats/patten.png)
+        }
+        
+        .harba {
+            text-align: center;
+            margin-top: 30px;
+            color: rgb(4, 4, 133)
+        }
+        
+        .ligne {
+            width: 10%;
+            height: 2px;
+            border-radius: 1px
+        }
+        
+        .harb {
+            text-align: center;
+            margin-top: 30px;
+            color: rgb(209, 16, 58)
+        }
+        
+        .lig {
+            width: 10%;
+            height: 2px;
+            border-radius: 1px
+        }
+        
+        .adopter {
+            display: flex;
+            justify-content: center;
+        }
+        
+        footer {
+            background-color: rgb(255, 255, 255);
+            background-size: cover;
+            margin-top: 30px
+        }
+        
+        .txtt:hover {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .txtt {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .icons {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between
+        }
+        
+        .prise {
+            font-size: 30px
+        }
+        
+        .map {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .mip {
+            height: 250px;
+        }
+        
+        .countact {
+            font-size: 20px
+        }
+        
+        .img_acc {
+            width: 350px;
+            height: 350px;
+            margin-top: -260px
+        }
